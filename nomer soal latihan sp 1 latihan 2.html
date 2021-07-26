@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function HitungVolumeDanLuasPermukaanbalok(panjang, lebar, tinggi){
+            volume = panjang * lebar * tinggi
+            luaspermukaan = 2 * (panjang * lebar) + (panjang * tinggi ) + (lebar * tinggi) 
+            document.write("panjang = " + panjang + "<br/>")
+            document.write("lebar = " + lebar + "<br/>")
+            document.write("tinggi = " + tinggi + "<br/>")
+            document.write("volume = " + volume + "<br/>")
+            document.write("luas permukaan " + luaspermukaan + "<br/>")
+        }
+
+        panjang = prompt("masukkan panjang")
+        lebar = prompt("masukkan lebar")
+        tinggi = prompt("masukkan tinggi")
+        HitungVolumeDanLuasPermukaanbalok(panjang, lebar, tinggi)
+    </script>
+    
+</body>
+</html>
